@@ -5,6 +5,7 @@ This project focuses on two major components:
 2. **Data extraction and analytics specific about vehicles and license plates.**
 
 
+
 ![PICTURE OF THE FLOW DIAGRAM](data_for_readme/window/WhatsApp Image 2023-08-17 at 01.19.27.jpeg)
 
 ## 1. Video Enhancement System
@@ -26,11 +27,13 @@ This project focuses on two major components:
 ### Video Enhancement:
 
 1. **Averaging and stabilization - ECC** by choosing a segmentation map for an object that we want to stabilize.
-    * **Options**: Directory of images + directory of segmentation mask -> processing -> image result
-      ![IMAGE RESULT](data_for_readme/ecc_classic_dudy/Screenshot from 2023-08-17 00-04-22.png)
+    * **Options**:
+      - Directory of images + directory of segmentation mask -> processing -> image result
+        ![IMAGE RESULT](data_for_readme/ecc_classic_dudy/Screenshot from 2023-08-17 00-04-22.png)
 
 2. **De-noise** - [Repository](https://github.com/xinntao/Real-ESRGAN)
-    * **Options**: Video + ROI User selection -> processing -> denoised video result
+    * **Options**: 
+        - Video + ROI User selection -> processing -> denoised video result
       ![DEMO VIDEO](data_for_readme/denoise/demo_video.mp4)
       ![DEMO GIF](data_for_readme/denoise/denoise.gif)
 
