@@ -6,7 +6,7 @@ This project focuses on two major components:
 
 
 
-![PICTURE OF THE FLOW DIAGRAM](data_for_readme/window/WhatsApp Image 2023-08-17 at 01.19.27.jpeg)
+![PICTURE OF THE FLOW DIAGRAM](data_for_readme/window/WhatsApp Image 2023-08-17 at 01.19.27.jpg)
 
 ## 1. Video Enhancement System
 
@@ -29,7 +29,7 @@ This project focuses on two major components:
 1. **Averaging and stabilization - ECC** by choosing a segmentation map for an object that we want to stabilize.
     * **Options**:
       - Directory of images + directory of segmentation mask -> processing -> image result
-        ![IMAGE RESULT](data_for_readme/ecc_classic_dudy/Screenshot from 2023-08-17 00-04-22.png)
+        ![IMAGE RESULT](data_for_readme/ecc_classic_dudy/Screenshot from 2023-08-17 00-04-22.jpg)
 
 2. **De-noise** - [Repository](https://github.com/xinntao/Real-ESRGAN)
     * **Options**: 
@@ -40,7 +40,7 @@ This project focuses on two major components:
 3. **De-blur** - [Repository](https://github.com/JingyunLiang/RVRT)
     * **Options**: Video + ROI User selection -> processing -> De-blure video result
       ![GIF](data_for_readme/deblur/teaser_vdb.gif)
-      ![IMAGE](data_for_readme/deblur/Screenshot from 2023-08-17 00-21-28.png)
+      ![IMAGE](data_for_readme/deblur/Screenshot from 2023-08-17 00-21-28.jpg)
       ![ANIMATION](data_for_readme/deblur/animation4.gif)
 
 4. **De-jpeg** - [Repository](https://github.com/ckkelvinchan/RealBasicVSR)
@@ -51,16 +51,16 @@ This project focuses on two major components:
 ### Video Processing 
 1. **Blur kernel estimation** - [Repository](https://github.com/GuillermoCarbajal/NonUniformBlurKernelEstimation)
     * **Options**: Image + ROI User selection -> processing -> Kernel blur estimation
-      ![IMAGE](data_for_readme/kernel_blur/Corrected_Cropped_Comparison_kernels.png)
+      ![IMAGE](data_for_readme/kernel_blur/Corrected_Cropped_Comparison_kernels.jpg)
 
 2. **Object segmentation based on text prompt** - [Repository](https://github.com/IDEA-Research/Grounded-Segment-Anything)
     * **Options**: Directory of images + text prompt -> processing -> segmentation map
-      ![IMAGE](data_for_readme/segmantion_sam/Screenshot from 2023-08-17 00-06-49.png)
+      ![IMAGE](data_for_readme/segmantion_sam/Screenshot from 2023-08-17 00-06-49.jpg)
 
 3. **Object Detection & Tracking & REID - YOLO** - [Repository](https://github.com/mikel-brostrom/yolo_tracking)
     * **Options**: Video + classes and other terms -> processing -> crop and other stuff
-      ![IMAGE 1](data_for_readme/object_detection/Screenshot from 2023-08-17 00-08-18.png)
-      ![IMAGE 2](data_for_readme/object_detection/Screenshot from 2023-08-17 00-13-41.png)
+      ![IMAGE 1](data_for_readme/object_detection/Screenshot from 2023-08-17 00-08-18.jpg)
+      ![IMAGE 2](data_for_readme/object_detection/Screenshot from 2023-08-17 00-13-41.jpg)
 
 4. **Optical Flow** - [Repository](https://github.com/facebookresearch/co-tracker)
     * **Options**: Video + ROI User selection -> processing -> Video & PT
@@ -74,7 +74,7 @@ This project focuses on two major components:
       - Person file questions + image -> processing -> Answer
       - Car file questions + image -> processing -> Answer
       - Free text question + image -> processing -> Answer
-        ![IMAGE](data_for_readme/questions_and_answering/Screenshot from 2023-08-17 00-13-08.png)
+        ![IMAGE](data_for_readme/questions_and_answering/Screenshot from 2023-08-17 00-13-08.jpg)
 
 7. **Create Motion Blur for Objects** - Based on optical flow and some logic. (Coming Soon)
 
@@ -84,7 +84,7 @@ This project focuses on two major components:
         ![VIDEO 1](data_for_readme/remove_object/car_removed_road_from_stabilize_drone_cut.mp4)
       - Video + ROI User selection -> processing (Classic) -> Inpaint object inside video
         ![VIDEO 2](data_for_readme/remove_object/remove_with_roi_dji_shapira.mp4)
-        ![IMAGE](data_for_readme/remove_object/Screenshot from 2023-08-17 00-20-13.png)
+        ![IMAGE](data_for_readme/remove_object/Screenshot from 2023-08-17 00-20-13.jpg)
 
 9. **Segmentation based on Optical Flow** - Get segmentation (BB) based on the optical flow points track
     * **Options**: Video + ROI User selection -> processing -> cropped object, bb
@@ -97,9 +97,9 @@ This project focuses on two major components:
 ## 2. Data Extraction and Analytics
 
 Specifically regarding vehicles and license plates. Follow the provided web page for results for cars and license plates according to your terms. The results are provided as a JSON file per object (Car and its license) with the best score.
-![WebPage](data_for_readme/web_page/Screenshot from 2023-08-17 00-28-25.png)
+![WebPage](data_for_readme/web_page/Screenshot from 2023-08-17 00-28-25.jpg)
 #### Note -> to use this web page u should to buy and install the license for - [PlateRecognizerCompany](https://www.google.com/aclk?sa=l&ai=DChcSEwjx2_2bmuKAAxUY0XcKHZTHANAYABAAGgJlZg&gclid=CjwKCAjw5_GmBhBIEiwA5QSMxHvZG2VmGfzr7A3M9KEBDa1AsNjAU1Io8bo2zuvxvqACoi-ejk36oRoCKTwQAvD_BwE&sig=AOD64_3SFgcETFB0M1Dj-5PB3Za-oEFRKg&q&adurl&ved=2ahUKEwiY-vObmuKAAxX7_rsIHTGBBG8Q0Qx6BAgGEAE)
-![LICENSE PLATE IMAGE](data_for_readme/licanse_plate_recognizer/Screenshot from 2023-08-17 00-19-18.png)
+![LICENSE PLATE IMAGE](data_for_readme/licanse_plate_recognizer/Screenshot from 2023-08-17 00-19-18.jpg)
 
 
 
@@ -135,7 +135,7 @@ python gui_video_processing_via_tkniret_3.py
 ```
 
 #### 6. You should see the main window
-![window](data_for_readme/window/Screenshot from 2023-08-17 01-04-54.png)
+![window](data_for_readme/window/Screenshot from 2023-08-17 01-04-54.jpg)
 
 
 ## **Remember** #
