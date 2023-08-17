@@ -8,6 +8,64 @@ This project focuses on two major components:
 
 ![PICTURE OF THE FLOW DIAGRAM](data_for_readme/window/WhatsApp%20Image%202023-08-17%20at%2001.19.27.jpg)
 
+
+### Repositories:
+
+1. **Real-ESRGAN** - Enhance low-resolution images with super-resolution techniques.
+   - [GitHub Repository](https://github.com/xinntao/Real-ESRGAN)
+
+2. **RVRT** - Techniques for de-blurring images and videos.
+   - [GitHub Repository](https://github.com/JingyunLiang/RVRT)
+
+3. **RealBasicVSR** - A repository dedicated to video super-resolution.
+   - [GitHub Repository](https://github.com/ckkelvinchan/RealBasicVSR)
+
+4. **NonUniformBlurKernelEstimation** - Estimate the blur kernel in images for de-blurring.
+   - [GitHub Repository](https://github.com/GuillermoCarbajal/NonUniformBlurKernelEstimation)
+
+5. **Grounded-Segment-Anything (SAM)** - Segmentation techniques based on text prompts.
+   - [GitHub Repository](https://github.com/IDEA-Research/Grounded-Segment-Anything)
+
+6. **Yolo Tracking** - Object detection, tracking, and REID using Yolo.
+   - [GitHub Repository](https://github.com/mikel-brostrom/yolo_tracking)
+
+7. **Co-Tracker Optical Flow** - Optical flow-based tracking system.
+   - [GitHub Repository](https://github.com/facebookresearch/co-tracker)
+
+8. **Frame Interpolation** - Interpolate frames in videos for smooth transitions.
+   - [GitHub Repository](https://github.com/google-research/frame-interpolation)
+
+9. **Inpaint-Anything** - Techniques for inpainting objects in images and videos.
+   - [GitHub Repository](https://github.com/geekyutao/Inpaint-Anything)
+   
+10. **Yolo detection** - Techniques for detections segmentation.
+    - [GitHub Repository](https://github.com/ultralytics)
+
+11 **Segment anything ** - Techniques for segmentation.
+    - [GitHub Repository](https://github.com/facebookresearch/segment-anything)
+
+
+
+### Models:
+
+1. **Lavis Model** - A model for question-answering based on images.
+   - [GitHub Model](https://github.com/salesforce/lavis)
+
+2. **ViLT Model** - Another model for image-based question-answering, hosted on Hugging Face.
+   - [Hugging Face Model](https://huggingface.co/dandelin/vilt-b32-finetuned-vqa)
+
+## Additional Resources:
+
+1. **PyTorch** - An open-source machine learning library to accelerate the path from research to production.
+   - [Official Website](https://pytorch.org/)
+
+
+2. **Plate recognizer** - A company provide ability to recognize license plate.
+    - [Official Website](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjGkJDBxeKAAxVO4XcKHXV2BEkYABAAGgJlZg&gclid=CjwKCAjw5_GmBhBIEiwA5QSMxCZda3a5mE0yoYktbZ_zXEI4fIhpZmXtUGiVFc_J5ROFlDeEhx6yNxoCYwEQAvD_BwE&ohost=www.google.com&cid=CAESauD2_B2NN45-FkV2up5AzKUQrc0nBbUvSoN346Mrn3GFysi08xw2JWmitdYxxFhSzty8r-wQhqbBQe-bMLjWoDI20sbVTkaqCRiwjMHPsUzYxG5WR1PURrx2HPvpk4OzmAOwMrSFI95Ruvc&sig=AOD64_0FowSWa9qeogp1bZ4z0n94Qye_YA&q&adurl&ved=2ahUKEwiGnYrBxeKAAxU3hf0HHZp_AY4Q0Qx6BAgHEAE)
+
+------
+_____
+
 ## 1. Video Enhancement System
 
 ### Image/Video Stabilization:
@@ -24,6 +82,7 @@ This project focuses on two major components:
         - Video input -> processing -> video result without averaging
           ![VIDEO](data_for_readme/stabilization_yoav/video_stabilize.mp4)
 
+----
 ### Video Enhancement:
 
 1. **Averaging and stabilization - ECC** by choosing a segmentation map for an object that we want to stabilize.
@@ -47,7 +106,7 @@ This project focuses on two major components:
     * **Options**: Video + ROI User selection -> processing -> De-jpeg video result
       ![VIDEO](data_for_readme/dejpeg/143370859-e0293b97-f962-476f-acf8-14fad27cea77.mp4)
 
-
+-----
 ### Video Processing 
 1. **Blur kernel estimation** - [Repository](https://github.com/GuillermoCarbajal/NonUniformBlurKernelEstimation)
     * **Options**: Image + ROI User selection -> processing -> Kernel blur estimation
@@ -89,10 +148,17 @@ This project focuses on two major components:
 9. **Segmentation based on Optical Flow** - Get segmentation (BB) based on the optical flow points track
     * **Options**: Video + ROI User selection -> processing -> cropped object, bb
       ![IMAGE Placeholder](path/to/image_placeholder.png)
+   
+-----
 
 ### Video Compression:
 1. **Video Compression**: Compress video via H264 using YOLO Detector
     ![VIDEO Placeholder](data_for_readme/smart_compresssion/h264_25_merged_video_0_51_25_25.mp4)
+
+
+
+_____
+_____
 
 ## 2. Data Extraction and Analytics
 
