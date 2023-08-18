@@ -174,7 +174,7 @@ Specifically regarding vehicles and license plates. Follow the provided web page
 
 #### 1. Clone the Repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/NehorayMelamed/VPAAE.git
 ```
 
 #### 2. Install PyTorch
@@ -190,10 +190,15 @@ sudo apt install python3-tk
 sudo apt install tk-dev
 ```
 
-#### 4. Download and Install the .pt Files
-```bash
-python Install_pt_files.py
-```
+#### 4. Download and place the .pt .pth Files
+1. ****Download the "pt_and_pth_files.zip" from the [Drive](https://drive.google.com/drive/folders/1lrCJdvpd-3Zmmeoxqu_uu5BkJkjgl2t5)**** into the base directory of the project
+   2. Open and place the pt in their locations
+       - cd to the root directory of the project(Where the zip should be)
+       - Navigate to [SystemBuilding](SystemBuilding) 
+       - run the code inside the [SystemBuildingForUser.py](SystemBuilding%2FSystemBuildingForUser.py) 
+
+         ```bash
+         python SystemBuildingForUser.py
 
 #### 5. Run the Main Script
 ```bash
