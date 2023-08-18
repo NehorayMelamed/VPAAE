@@ -190,15 +190,23 @@ sudo apt install python3-tk
 sudo apt install tk-dev
 ```
 
-#### 4. Download and place the .pt .pth Files
-1. ****Download the "pt_and_pth_files.zip" from the [Drive](https://drive.google.com/drive/folders/1lrCJdvpd-3Zmmeoxqu_uu5BkJkjgl2t5)**** into the base directory of the project
-   2. Open and place the pt in their locations
-       - cd to the root directory of the project(Where the zip should be)
-       - Navigate to [SystemBuilding](SystemBuilding) 
-       - run the code inside the [SystemBuildingForUser.py](SystemBuilding%2FSystemBuildingForUser.py) 
+## 4. Download and Place the .pt and .pth Files
 
-         ```bash
-         python SystemBuildingForUser.py
+1. **Download the Files**:  
+   Download the `pt_and_pth_files.zip` from this [Drive link](https://drive.google.com/drive/folders/1lrCJdvpd-3Zmmeoxqu_uu5BkJkjgl2t5) and place it in the base directory of the project.
+
+2. **Place the .pt Files in Their Locations**:  
+   - Ensure you are in the root directory of the project (where the zip file should be located).
+   - Navigate to the [SystemBuilding](SystemBuilding) directory:  
+     ```
+     cd SystemBuilding
+     ```
+   - Run the code inside the [SystemBuildingForUser.py](SystemBuilding%2FSystemBuildingForUser.py)  script:  
+     ```bash
+     python SystemBuildingForUser.py
+     ```
+
+
 
 #### 5. Run the Main Script
 ```bash
