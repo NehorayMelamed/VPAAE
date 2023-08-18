@@ -219,3 +219,18 @@ python gui_video_processing_via_tkniret_3.py
 
 ## **Remember** #
 ##### The way to get into the system for the vehicle and license plate is by clicking the below link of the window
+
+
+## TODO:
+
+- [ ] Add an option to upload a video or a folder of photos, uniformly for everyone.
+
+- [ ] To create a connection between the different services.
+
+- [ ] Make VIDEO COMPRESSION so that it is also possible to choose with a simple YOLO, and not just upload a folder of FRAMES, and MASKS.
+
+- [ ] Support the choice of CPU or CUDA for:
+     - Chain_demo_main_interface -(By co-track)
+     - FRAME INTERPOLATION
+     - DENOISE
+     - DEBLUR
